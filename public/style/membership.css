@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+#membership {margin-bottom:150px;}
+
+.membership_intro{height:600px; background-image:url("/img/bg5.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;}
+.membership_intro .intro_bg {padding-left:100px; padding-top:200px; font-size:50px;}
+.membership_intro .intro_bg > h2 {font-weight:bold;}
+
+.typing {color:#fff; font-size:30px;}
+
+.title{text-align:center; margin:100px 0; font-size:50px; font-weight:bold;}
+.cont1 { display:flex; justify-content:center; background-color:#fff;}
+.conts .cont1 .center {width:1200px; display:flex; justify-content:center; margin-top:200px; margin-top:200px;}
+.cont1 .center .tab {width:1200px; border:1px solid #fff;}
+.cont1 .center .tab .menu { display:flex;}
+.cont1 .center .tab .menu li {width:25%;;}
+.cont1 .center .tab .menu li a { display:block;
+                                 text-align:center;
+                                 line-height:60px;
+                                 background-color:#000;
+                                 color:#fff; transition:all 0.5s;}
+
+.cont1 .center .tab .menu li:nth-child(1) a {background-color:orange;
+                                             color:#000;}
+
+.cont1 .center .tab .box_area .box { margin-top:50px;
+                                     display:none;}
+.cont1 .center .tab .box_area .box:nth-child(1) {display:flex; justify-content:space-between; flex-wrap:wrap;}
+.cont1 .center .tab .box_area .box .text1 {width:360px; height:360px;}
+.cont1 .center .tab .box_area .box .text1 img{width:100%; height:100%;}
+.cont1 .center .tab .box_area .box .text1 h2 {margin:30px 0;}
+.cont1 .center .tab .box_area .box .text1 p {margin-bottom:30px;}
+.cont1 .center .tab .box_area .box .text1 .go {border-bottom:1px solid #000; color:#000;}
+
+.tab .box_area .box .guide{margin-top:300px; font-size:20px;}
+.tab .box_area .box .guide > div {margin:100px 0;}
+.tab .box_area .box .guide .t1 h2 {margin-bottom:30px;}
+.tab .box_area .box .guide > div p { margin:20px 0;}
+
+
+.tab .box_area .box:nth-child(2) {display:flex; flex-wrap:wrap;}
+.tab .box_area .box .text2{margin-top:100px;}
+.tab .box_area .box .text2 h3 {margin:20px 20px;}
+.tab .box_area .box .text2 p {margin:20px 20px; }
+.tab .box_area .box .img_area p {margin:10px 0;}
+.tab .box_area .box .img_area .btn{display:flex; justify-content:space-between; width:200px; height:50px;}
+.tab .box_area .box .img_area .btn > a{background-color:#000; color:#fff; line-height:50px; transition:all 0.5s;}
+.tab .box_area .box .img_area .btn a:hover {background-color:skyblue;}
+.tab .box_area .box .text_area > div { margin:100px 0;}
+.tab .box_area .box .text_area .t1 h2 {margin-bottom:20px;} 
+.tab .box_area .box .text_area > div p {margin:50px 0;} 
+.tab .box_area .box .text_area .t2 {display:flex;}
+.tab .box_area .box .text_area .t2 > div{width:570px;}
+.tab .box_area .box .text_area .t2 .t_right img{margin-left:170px;}
+
+.point {margin-bottom:50px;}
+.point h3{margin:20px 30px;}
+.point p {margin-left:30px;}
+.point2 {display:flex; justify-content:space-around; width:1200px; border:1px solid #000;}
+.point2 .point_info p {margin:20px 0; text-align:center;}
+
+.point3{ margin:50px 0;}
+.point3 h2 {margin:80px 0;}
+.point3 .discount{display:flex; justify-content:space-around; margin-bottom:100px;}
+.point3 .discount > div{width:100px; line-height:50px;}
+.point3 .discount > div > i{font-size:60px; color:#000;}
+.point3 .place {display:flex; justify-content:space-between; flex-wrap:wrap; width:1200px;}
+.point3 .place > div{width:370px; margin:30px 0;}
+.point3 .place > div img {width:100%;}
+.point3 .place > div p {margin:20px; text-align:center;}
+
+
+.text4 {margin:50px 0;}
+.text4 h3 {margin:20px 0;}
+.text4 > div{border:1px solid #000; margin:30px 0;}
+.text4 > div > p {margin:30px 0;} 
+.discount2 {display:flex; justify-content:space-between; flex-wrap:wrap; width:1200px;}
+.discount2 > .disbox1 {width:580px; margin:40px 0;}
+.discount2 > .disbox1 h2 {margin:10px 0;}
+.discount2 > .disbox1 img {width:100%;}

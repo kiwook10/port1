@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g70서브페이지</title>
+    <style>
+        * {margin:0; padding:0;}
+        ul,ol,li { list-style:none;}
+        a { text-decoration:none;}
+        body { line-height:1;}
+        img { vertical-align:top;}
+
+        
+        .header{z-index:30; width:100%; background-color:#000;}
+        .header.on{background-color:rgb(158, 106, 207,0.5);}
+        .header.on .center .menus .menu a {color:#fff;}
+        .header .center {display:flex; justify-content:space-between; margin:0 auto; align-items:center; width:1200px; height:80px; font-weight:bold;}
+        .agree{position:absolute;right:100px; top:4%; transform:translate(0,-50%);}
+        .agree a {color:#fff;}
+        .header .center h2{width:200px; height:50px;}
+        .header .center h2 img{width:100%; height:100%;}
+        .header .center .menus{display:flex;}
+        .header .center .menus > .menu{position:relative; width:180px; height:50px; line-height:50px; text-align:center;}
+        .header .center .menus > .menu:hover a{color:blue;}
+        .header .center .menus .menu a{ display:block; height:100%; color:#fff;}
+
+        .header .center .menus > .menu > ul {background-color:#000; width:100%; display:none;}
+        .header.on .center .menus > .menu > ul{background-color:rgb(158, 106, 207,0.5);}
+        .header .center .menus > .menu > ul > li {line-height:40px;}
+        .header .center .menus > .menu > ul > li a{color:#fff;}
+        .header .center .menus > .menu > ul > li a:hover{color:springgreen;}
+
+        .conts > div { height:100vh;}
+        .conts .cont1 { display:flex; justify-content:center; background-color:#000;}
+        .conts .cont1 .center {width:1200px; display:flex; justify-content:center; margin-top:200px;}
+        .cont1 .center .tab {width:1200px; height:500px; border:1px solid #fff;}
+        .cont1 .center .tab .menu { display:flex;}
+        .cont1 .center .tab .menu li {width:25%;;}
+        .cont1 .center .tab .menu li a { display:block;
+                                         text-align:center;
+                                         line-height:60px;
+                                         background-color:#000;
+                                         color:#fff; transition:all 0.5s;}
+
+        .cont1 .center .tab .menu li:nth-child(1) a {background-color:orange;
+                                                     color:#000;}
+
+        .cont1 .center .tab .box_area .box { background-color:#000;
+                                             color:#fff;
+                                             height:400px;
+                                             display:none;}
+        .cont1 .center .tab .box_area .box:nth-child(1) { display:block;}
+
+        .tab .box_area .box .text{padding-top:30px; padding-left:30px;}
+        .tab .box_area .box .text h2 {margin-bottom:30px;}
+        .tab .box_area .box .text h4 {margin-bottom:30px;}
+        .tab .box_area .box .text h1 {margin-bottom:20px;}
+        .tab .box_area .box .text p { margin:10px 0;}
+        .tab .box_area .box .text .flex > div p {margin:10px 0;}
+        .tab .box_area .box .text .flex {display:flex; justify-content:space-around;}
+        
+
+        .footer{display:flex; justify-content:center; background-color:rgb(2, 2, 24); color:#fff;}
+        .footer .center{display:flex; justify-content:space-between; align-items:center; width:1200px; height:100px;}
+        .footer .center .f_left{display:flex; justify-content:space-between; width:320px; line-height:25px;}
+        .footer .center .f_right {display:flex;}
+        .footer .center .f_right .f_img{width:200px; height:50px; margin:0 20px;}
+        .f_right .f_img img{width:100%; height:100%; }
+        
+    </style>
+</head>
+<body>
+    <div id="g70sub">
+        <div class="header">    <!--해더부분-->
+            <div class="center">
+                <div class="agree"><a href="agree.html">회원가입</a></div>
+                <h2><a href="main.html"><img src="img/logo.png"></a></h2>
+                <ul class="menus">
+                    <li class="menu">
+                        <a href="#">공지사항1</a> <!-- 각 메뉴와 서브메뉴 부분-->
+                        <ul class="depth2">
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#">공지사항2</a>
+                        <ul class="depth2">
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#">공지사항3</a>
+                        <ul class="depth2">
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#">공지사항4</a>
+                        <ul class="depth2">
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                            <li><a href="#">하단메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="conts">
+            <div class="cont1">
+                <div class=" center">
+                    <div class="tab">
+                        <ul class="menu">
+                            <li><a href="#">디자인</a></li>
+                            <li><a href="#">안전</a></li>
+                            <li><a href="#">태크놀로지</a></li>
+                            <li><a href="#">스펙</a></li>
+                        </ul>
+                        <div class="box_area">
+                            <div class="box">
+                                <div class="text">
+                                    <h2>디자인</h2>
+                                    <h4>G70 디자인</h4>
+                                    <h1>역동적인 우아함</h1>
+                                    <p>제네시스 디자인 아이덴티티를 계승함과 동시에</p>
+                                    <p>역동적인 스포츠 세단의 당당함을 표현합니다.</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="text">
+                                    <h2>안전</h2>
+                                    <p>G70 안전</p>
+                                    <p>타협 없는 안전성</p>
+                                    <p>당신의 안전하고 편안한 여정을 약속합니다.</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="text">
+                                    <h2>태크놀로지</h2>
+                                    <p>G70 테크놀로지</p>
+                                    <p>드라이빙의 즐거움</p>
+                                    <p>제네시스 G70는 편안하고 자유로운 드라이빙 경험을 제공합니다.</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="text">
+                                    <h2>스펙</h2>
+                                    <div class="flex">
+                                        <div class="tab_left">
+                                            <p>전장 (mm) - 4,685</p>
+                                            <p>전폭 (mm) - 1850</p>
+                                            <p>전고 (mm) - 1400</p>
+                                            <p>축간거리 (mm) - 2835</p>
+                                            <p>윤거 전 (mm) - 1,596(18인치)</p>
+                                            <p>윤거 후 (mm) - 1,632(18인치)</p>
+                                            <p>축간거리 (mm) - 2835</p>
+                                        </div>
+                                        <div class="tab_right">
+                                            <p> 엔진형식 / 배터리종류 - I4 2.5 T-GDi</p>
+                                            <p> 구동방식 -  2WD / AWD	</p>
+                                            <p>배기량 (cc) / 배터리용량 (kWh) - 2,497 cc</p>
+                                            <p>  최고출력 (PS/rpm) / (kW) - 304/5,800 PS/rpm</p>
+                                            <p>최대토크 (kgf·m/rpm) / (Nm) - 43.0/1,650 ~ 4,000 kgf·m/rpm</p>
+                                            <p>연료탱크용량 (L) - 60</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"> <!--하단 부분-->
+            <div class="center">
+                <div class=f_left>
+                    <div class="left">
+                        <p>ADDRESS</p>
+                        <p>TEL</p>
+                        <p>E-mail</p>
+                    </div>
+                    <div class="right">
+                        <p>경기도 고양시 일산서구 일산2동</p>
+                        <p>010-4188-6192</p>
+                        <p>kgu950823@naver.com</p>
+                    </div>
+                </div>
+                <div class=f_right>
+                    <p>@copyright</p>
+                    <div class="f_img">
+                        <img src="img/logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/header.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/tabmenu.js"></script>
+</body>
+</html>
